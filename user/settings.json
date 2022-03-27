@@ -1,0 +1,9 @@
+{
+    "PRIVATE_KEY" : "",
+    "TOKEN_ADDRESS" : "",
+    "PROVIDER" : "https://ropsten.infura.io/v3/d9b8c1e096b043a6afd117f3d4df04d3",
+    "MIN_AMOUNT_ETH" : 0.000001,
+    "MAX_AMOUNT_ETH" : 0.000005,
+    "AVG_TIME_BETWEEN_TRADES_SECONDS": 120,
+    "MAX_GASPRICE_GWEI" : 50
+}
