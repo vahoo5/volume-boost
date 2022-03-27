@@ -58,9 +58,8 @@ const get_tx = async (buy, amount_ETH, amount_token = null) => {
   return {tx:tx, amount_token:amount_token};
 }
 
-const send_tx = async (tx, gasPrice, maxPriorityFeePerGas) => {
+const send_tx = async (tx, maxPriorityFeePerGas) => {
   tx["maxPriorityFeePerGas"] = maxPriorityFeePerGas;
-  tx["gasPrice"] = gasPrice;
   tx["nonce"] = nonce;
   await account.sendTransaction(tx);
   nonce += 1;
